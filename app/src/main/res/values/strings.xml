@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">AnimatedVectorDrawable</string>
+  <string name="unliked">unliked</string>
+  <string name="liked">liked</string>
+</resources>

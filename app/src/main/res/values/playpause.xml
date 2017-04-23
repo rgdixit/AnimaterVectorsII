@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="state">
+    <attr format="boolean" name="play" />
+  </declare-styleable>
+
+  <string name="pause_path_data">M14,5 L14,19 L18,19  L18,5  M6,5   L6,19  L10,19 L10,5</string>
+  <string name="path_data_play">M18,12 L6,12  L6,19   L18,12 M18,12 L6,5  L6,12  L18,12</string>
+
+</resources>

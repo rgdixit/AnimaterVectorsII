@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--AnimateStateListDrawable start-tag-->
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi">
+
+  <!--Specific Drawable for specific state set having specific id-->
+  <item
+      android:id="@+id/pause"
+      android:drawable="@drawable/vd_pause"
+      android:state_selected="false" />
+
+  <item
+      android:id="@+id/play"
+      android:drawable="@drawable/vd_play"
+      android:state_selected="true" />
+
+  <!-- Transition Elements for transition from one state to other-->
+
+  <transition
+      android:drawable="@drawable/avd_pause_to_play"
+      android:fromId="@id/pause"
+      android:reversible="false"
+      android:toId="@id/play" />
+
+
+  <transition
+      android:drawable="@drawable/avd_play_to_pause"
+      android:fromId="@id/play"
+      android:reversible="false"
+      android:toId="@id/pause" />
+
+
+</animated-selector>
